@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/app.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.css" />
+</head>
+<body>
+<!--Bulma CSS article & container for styling and centering of the result page  -->
+<div class="container">
+    <article class="message is-primary">
+        <div class="message-header">
+            Wikipedia API Search
+        </div>
+        <div class="message-body">
+            <li>Use the seach box below to search for any article.</li>
+            <li>Click the image below for a random article.</li>
+        </div>
+    </article>
+    <div class="container">
+        <a href="https://en.wikipedia.org/wiki/Special:Random">
+            <img src="https://vignette1.wikia.nocookie.net/princeofpersia/images/5/55/Wikipedia_logo_gold.png/revision/latest?cb=20140531160324&path-prefix=en"
+                target="blank" height=250 width=200>
+        </a>
+        <div class="control has-icons-left">
+            <input class="input" id="searchText">
+            <span class="icon is-small is-left">
+                <i class="fa fa-search"></i>
+            </span>
+        </div>
+        <button id="searchBtn" class="button is-primary is-medium is-outlined ">Search</button>
+        <div class="block">
+            <p class="content is-medium" <ul id="output">
+                </ul>
+            </p>
+        </div>
+    </div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+</body>
+
+
+</html>
